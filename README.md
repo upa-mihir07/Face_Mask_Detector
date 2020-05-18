@@ -14,3 +14,9 @@ To create this dataset, Prajna had the ingenious solution of:
 The mask will be automatically applied to the face by using the facial landmarks (namely the points along the chin and nose) to compute where the mask will be placed.
 
 The mask is then resized and rotated, placing it on the face.
+
+#### Detecting Face Mask in Video Stream
+
+You can also detect face mask in live straem using your webcam, or mobile cam.
+  > detect_mask_video.py
+
